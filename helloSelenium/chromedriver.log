@@ -1,0 +1,71 @@
+[0.000][INFO]:      ChromeDriver 23.0.1240.0 C:\Selenium\chromedriver.exe
+[0.491][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.491][INFO]:      Launching chrome: "C:\Documents and Settings\huangjia\Local Settings\Application Data\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
+[0.929][INFO]:      Connected to Chrome successfully. Version: 22.0.1229.94
+[0.955][FINE]:      Command received (/session/34562cfc65c70f06a481ba6bd1ee102b)
+[0.955][FINE]:      Command finished (/session/34562cfc65c70f06a481ba6bd1ee102b) with response {
+   "sessionId": "34562cfc65c70f06a481ba6bd1ee102b",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "22.0.1229.94",
+      "webStorageEnabled": true
+   }
+}
+
+[0.977][FINE]:      Command received (/session/34562cfc65c70f06a481ba6bd1ee102b/timeouts/implicit_wait) with params {
+   "ms": 5000
+}
+
+[0.977][FINER]:     Waiting for all views to stop loading...
+[0.978][FINER]:     Done waiting for all views to stop loading
+[0.978][FINER]:     Waiting for all views to stop loading...
+[0.978][FINER]:     Done waiting for all views to stop loading
+[0.978][FINE]:      Command finished (/session/34562cfc65c70f06a481ba6bd1ee102b/timeouts/implicit_wait) with response {
+   "sessionId": "34562cfc65c70f06a481ba6bd1ee102b",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[0.983][FINE]:      Command received (/session/34562cfc65c70f06a481ba6bd1ee102b/url) with params {
+   "url": "http://www.moodys.com/"
+}
+
+[0.983][FINER]:     Waiting for all views to stop loading...
+[0.984][FINER]:     Done waiting for all views to stop loading
+[8.399][FINER]:     Waiting for all views to stop loading...
+[8.403][FINER]:     Done waiting for all views to stop loading
+[8.403][FINE]:      Command finished (/session/34562cfc65c70f06a481ba6bd1ee102b/url) with response {
+   "sessionId": "34562cfc65c70f06a481ba6bd1ee102b",
+   "status": 0,
+   "value": {
+
+   }
+}
+

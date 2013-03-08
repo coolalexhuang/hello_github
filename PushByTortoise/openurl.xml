@@ -9,10 +9,10 @@
    </os:display>
    <os:activity category="Open">
       <os:activityAction context="selection">
-         <os:execute action="http://accelerators.tcgcomputers.com/openurl/openurl.htm?u={selection}" method="get" />
+         <os:execute action="http://{selection}" method="get" />
       </os:activityAction>
       <os:activityAction context="link">
-         <os:execute action="http://accelerators.tcgcomputers.com/openurl/openurl.htm?u={link}" method="get" />
+         <os:execute action="http://{link}" method="get" />
       </os:activityAction>
    </os:activity>
 </os:openServiceDescription>

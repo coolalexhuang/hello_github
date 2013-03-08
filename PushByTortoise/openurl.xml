@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<os:openServiceDescription
+   xmlns:os="http://www.microsoft.com/schemas/openservicedescription/1.0">
+   <os:homepageUrl>http://accelerators.tcgcomputers.com</os:homepageUrl>
+   <os:display>
+      <os:name>Open URL in New Tab</os:name>
+      <os:icon>http://accelerators.tcgcomputers.com/openurl/favicon.ico</os:icon>
+      <os:description>Open the selected URL in a new tab within Internet Explorer.</os:description>
+   </os:display>
+   <os:activity category="Open">
+      <os:activityAction context="selection">
+         <os:execute action="{selection}" method="get" />
+      </os:activityAction>
+      <os:activityAction context="link">
+         <os:execute action="{link}" method="get" />
+      </os:activityAction>
+   </os:activity>
+</os:openServiceDescription>

@@ -2,7 +2,7 @@
 {
 for $x in //DataPoints/DataPoint
 where $x/@id < 1000
-order by $x/@id
-return<Res>{data($x/@id)}?{data($x/@name)} </Res>
+order by number($x/@id)
+return<Res>{data($x/@id)}+{data($x/@name)} </Res>
 }
 </Result>

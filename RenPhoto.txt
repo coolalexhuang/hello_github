@@ -1,0 +1,2 @@
+http://photo.renren.com/getalbumprofile.do?owner={owner id}
+http://photo.renren.com/photo/{owner id}/latest/photo-{photo id}
